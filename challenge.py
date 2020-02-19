@@ -27,5 +27,3 @@ def power_r(a, b):
         return 1 / (a * power_r(a, -b - 1))     # O(n)
         # or return 1 divided by function with -b
         # return 1 / power_r(a, -b)
-
-# O(1) + O(1) + O(1) + O(1) + O(1)
